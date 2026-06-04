@@ -1,6 +1,6 @@
-# AI Roast Me — Privacy & Terms
+# Roastly — Privacy & Terms
 
-GitHub Pages site for AI Roast Me legal docs.
+GitHub Pages site for Roastly legal docs.
 
 **Live URL:** `https://<your-username>.github.io/roastme-privacy/`
 
