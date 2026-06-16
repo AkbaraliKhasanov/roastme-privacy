@@ -17,7 +17,7 @@
     <div class="effective">Effective: June 4, 2026</div>
 
     <div class="callout">
-      <p><strong>Short version.</strong> Roastly is an AI comedy app. To generate a roast we send the bio you type or the selfie you pick to <strong>OpenAI</strong> (a third-party AI service). We do not store your photos, bios, or any personal data on our servers. There are no accounts, no analytics SDKs, and no advertising. Your roast history stays on your device.</p>
+      <p><strong>Short version.</strong> Roastly is an AI comedy app. To generate a roast we send the bio you type or the selfie you pick to <strong>Google's Gemini AI</strong> (a third-party AI service). We do not store your photos, bios, or any personal data on our servers. There are no accounts, no analytics SDKs, and no advertising. Your roast history stays on your device.</p>
     </div>
 
     <h2>1. Who we are</h2>
@@ -30,19 +30,19 @@
       Roastly uses a third-party generative AI service to create roasts. Before the App sends any of your data to this service you will see an <strong>in-app disclosure on first launch</strong> and must tap "I Agree — Continue" to proceed.
     </p>
     <ul>
-      <li><strong>AI provider:</strong> OpenAI, L.L.C. (United States). The App calls OpenAI's API at <code>api.openai.com</code>.</li>
+      <li><strong>AI provider:</strong> Google LLC (United States). The App calls Google's Gemini API at <code>generativelanguage.googleapis.com</code>.</li>
       <li><strong>What is sent:</strong> the bio text you type, the selfie photo you choose, and (for Party Mode) the names and bios of the party members you enter. Nothing else from your device — no contacts, location, address book, identifiers for advertisers, or any other personal data.</li>
-      <li><strong>What OpenAI does with it:</strong> generates the roast text and returns it to our backend, which forwards it to the App. Under OpenAI's API data policy, content submitted through the API is <strong>not used to train OpenAI's models</strong> and is retained only for abuse-monitoring purposes for a limited period before deletion. See <a href="https://openai.com/policies/api-data-usage-policies" target="_blank" rel="noopener">OpenAI API data usage policies</a> and <a href="https://openai.com/policies/privacy-policy" target="_blank" rel="noopener">OpenAI Privacy Policy</a>.</li>
-      <li><strong>Equal protection:</strong> OpenAI's privacy and data-handling commitments for API content are functionally equivalent to the protections described in this Policy — content is not used for training, is encrypted in transit, and is purged on the schedule referenced above.</li>
-      <li><strong>Your control:</strong> if you do not agree to share data with OpenAI, do not tap "I Agree — Continue" on the disclosure screen. Without consent the App cannot generate roasts, but the rest of the App (history view, settings) remains usable.</li>
+      <li><strong>What Google does with it:</strong> generates the roast text and returns it to our backend, which forwards it to the App. Google processes the content to provide the AI response, governed by Google's Privacy Policy and the Gemini API Additional Terms of Service. See <a href="https://ai.google.dev/gemini-api/terms" target="_blank" rel="noopener">Gemini API Additional Terms</a> and <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.</li>
+      <li><strong>What we store:</strong> we do not store your photos, bios, or roasts on our servers. The content is sent to Google only to generate the roast and is not retained on our backend beyond the request lifecycle.</li>
+      <li><strong>Your control:</strong> if you do not agree to share data with Google, do not tap "I Agree — Continue" on the disclosure screen. Without consent the App cannot generate roasts, but the rest of the App (history view, settings) remains usable.</li>
     </ul>
 
     <h2>3. Information we collect</h2>
 
     <h3>3.1 Information you provide</h3>
     <ul>
-      <li><strong>Selfie photos</strong> — when you use Selfie Roast, the image is uploaded to our backend (Hetzner, Germany) and immediately forwarded to OpenAI for analysis. The image is <strong>not stored on our servers</strong> beyond the request lifecycle.</li>
-      <li><strong>Bio text</strong> — when you use Bio Roast or Party Mode, the text you type is sent to our backend and forwarded to OpenAI for analysis. It is <strong>not stored on our servers</strong>.</li>
+      <li><strong>Selfie photos</strong> — when you use Selfie Roast, the image is uploaded to our backend (Hetzner, Germany) and immediately forwarded to Google's Gemini API for analysis. The image is <strong>not stored on our servers</strong> beyond the request lifecycle.</li>
+      <li><strong>Bio text</strong> — when you use Bio Roast or Party Mode, the text you type is sent to our backend and forwarded to Google's Gemini API for analysis. It is <strong>not stored on our servers</strong>.</li>
     </ul>
 
     <h3>3.2 Information collected automatically</h3>
@@ -105,12 +105,12 @@
 
     <h2>10. Security</h2>
     <p>
-      All communication between the App and our backend uses HTTPS (TLS 1.2+). Communication between our backend and OpenAI is also HTTPS. API keys are stored as server environment variables and never embedded in the App.
+      All communication between the App and our backend uses HTTPS (TLS 1.2+). Communication between our backend and Google's Gemini API is also HTTPS. API keys are stored as server environment variables and never embedded in the App.
     </p>
 
     <h2>11. International transfers</h2>
     <p>
-      Our backend is hosted in Germany. Roast requests are forwarded to OpenAI, which processes data in the United States. By tapping "I Agree — Continue" on the in-app disclosure you consent to these transfers.
+      Our backend is hosted in Germany. Roast requests are forwarded to Google's Gemini API, which may process data in the United States. By tapping "I Agree — Continue" on the in-app disclosure you consent to these transfers.
     </p>
 
     <h2>12. Changes to this policy</h2>
